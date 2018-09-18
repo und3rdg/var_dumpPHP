@@ -1,0 +1,26 @@
+{
+  "name": "var_dumpphp",
+  "version": "1.0.0",
+  "description": "Xdebug is an extension for PHP.",
+  "main": "var_dumpPHP.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/und3rdg/var_dumpPHP.git"
+  },
+  "keywords": [
+    "var_dump",
+    "xdebug",
+    "debug",
+    "debugging",
+    "php"
+  ],
+  "author": "undg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/und3rdg/var_dumpPHP/issues"
+  },
+  "homepage": "https://github.com/und3rdg/var_dumpPHP#readme"
+}

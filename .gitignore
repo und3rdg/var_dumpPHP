@@ -7,4 +7,5 @@ Session.vim
 .netrwhist
 tags
 [._]*.un~
+node_module/
 *.DS_Store
