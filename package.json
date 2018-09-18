@@ -1,6 +1,6 @@
 {
   "name": "var_dumpphp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Xdebug is an extension for PHP.",
   "main": "var_dumpPHP.js",
   "scripts": {
