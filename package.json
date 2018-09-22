@@ -1,6 +1,6 @@
 {
   "name": "var_dump_php",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "PHP var_dump() styles.",
   "main": "var_dump_php.js",
   "scripts": {
