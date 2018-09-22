@@ -1,14 +1,14 @@
 {
-  "name": "var_dumpphp",
+  "name": "var_dump_php",
   "version": "1.0.2",
-  "description": "Style for var_dump().",
-  "main": "var_dumpPHP.js",
+  "description": "PHP var_dump() styles.",
+  "main": "var_dump_php.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/und3rdg/var_dumpPHP.git"
+    "url": "git+https://github.com/und3rdg/var_dump_php.git"
   },
   "keywords": [
     "var_dump",
@@ -20,7 +20,7 @@
   "author": "undg",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/und3rdg/var_dumpPHP/issues"
+    "url": "https://github.com/und3rdg/var_dump_php/issues"
   },
-  "homepage": "https://github.com/und3rdg/var_dumpPHP#readme"
+  "homepage": "https://github.com/und3rdg/var_dump_php#readme"
 }
