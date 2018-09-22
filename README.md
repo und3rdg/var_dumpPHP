@@ -14,7 +14,7 @@ Or install it with npm
     
     npm install --save var_dump_php
 
-![screenshoot](var_dump_php.png)
+![screenshoot](var_dumpphp.png)
 
 
 Xdebug is an extension for PHP and have to by installed. It upgrades PHP's var_dump() function.
