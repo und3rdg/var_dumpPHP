@@ -8,7 +8,7 @@
 export default function var_dump_php(){
   "use strict"
   const nodeList = document.querySelectorAll('.xdebug-var-dump')
-  if(!nodeList){ return } // if there is nothing to do, fck off
+  if(!nodeList.length){ return } // if there is nothing to do, fck off
 
   const container = document.createElement('div')
   function createContainer(){
