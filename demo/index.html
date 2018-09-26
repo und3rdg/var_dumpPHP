@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8">
     <title>var_dumpphp demo</title>
-    <script type="module" src="var_dumpphp.js"></script>
+    <script type="module">
+      import var_dump from './var_dumpphp.js'
+      document.addEventListener('DOMContentLoaded', var_dump)
+    </script>
   </head>
   <body>
     <h1>var_dumpphp demo HTML</h1>

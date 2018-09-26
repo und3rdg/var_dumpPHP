@@ -33,8 +33,16 @@ export default function var_dump_php(){
     container.style.alignItems    = "flex-start"
     container.style.margin        = '10px 0'
 
-    nodeList.forEach(pre => pre.style.width = `calc(100% - ${option.btnWidth})`)
+    nodeList.forEach(restStyles)
     document.body.appendChild(container)
+  }
+
+  function restStyles(pre){
+    pre.style.width      = `calc(100% - ${option.btnWidth})`
+    pre.style.display    = 'block'
+    pre.style.fontFamily = 'monospace'
+    pre.style.whiteSpace = 'pre'
+    pre.style.margin     = '1em 0px'
   }
 
 
