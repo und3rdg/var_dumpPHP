@@ -32,6 +32,7 @@ export default function var_dump_php(){
     container.style.flexDirection = "column"
     container.style.alignItems    = "flex-start"
     container.style.margin        = '10px 0'
+    container.style.pointerEvents = 'none'
 
     nodeList.forEach(restStyles)
     document.body.appendChild(container)
@@ -59,6 +60,7 @@ export default function var_dump_php(){
     wrap.style.display        = 'flex'
     wrap.style.justifyContent = "space-between"
     wrap.style.overflow       = 'hidden'
+    wrap.style.pointerEvents  = 'auto'
     wrap.style.transition     = option.transformation
     el.style.transition       = option.transformation
 
