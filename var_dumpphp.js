@@ -40,6 +40,7 @@ export default function var_dump_php(){
 
   function restStyles(pre){
     pre.style.width      = `calc(100% - ${option.btnWidth})`
+    pre.style.maxWidth      = `calc(100% - ${option.btnWidth})`
     pre.style.display    = 'block'
     pre.style.fontFamily = 'monospace'
     pre.style.whiteSpace = 'pre'
@@ -53,13 +54,13 @@ export default function var_dump_php(){
     wrap.appendChild(el)
 
     wrap.style.boxSizing      = 'border-box'
-    wrap.style.width          = '100%'
+    wrap.style.width          = '100vw'
     wrap.style.margin         = '10px 0'
     wrap.style.color          = option.wrapColor
     wrap.style.background     = option.wrapBgColor
     wrap.style.display        = 'flex'
     wrap.style.justifyContent = "space-between"
-    wrap.style.overflow       = 'hidden'
+    wrap.style.overflowX      = 'auto'
     wrap.style.pointerEvents  = 'auto'
     wrap.style.transition     = option.transformation
     el.style.transition       = option.transformation
@@ -85,6 +86,7 @@ export default function var_dump_php(){
     btn.innerText = option.openTxt
 
     btn.style.width          = option.btnWidth
+    btn.style.minWidth       = option.btnWidth
     btn.style.background     = option.btnColor
     btn.style.fontSize       = `calc(${option.btnWidth} * 0.8)`
     btn.style.margin         = '0 20px 0 0'
@@ -101,8 +103,9 @@ export default function var_dump_php(){
     btn.innerText    = option.closeTxt
     btn.style.margin = '0'
 
-    wrap.style.width = option.btnWidth
-    el.style.width   = '0px'
+    wrap.style.width     = option.btnWidth
+    wrap.style.overflowX = 'hidden'
+    el.style.width       = '0px'
 
     el.style.visibility = 'hidden'
     el.style.opacity    = '0'
@@ -112,8 +115,9 @@ export default function var_dump_php(){
     btn.innerText    = option.openTxt
     btn.style.margin = '0 20px 0 0'
 
-    wrap.style.width = '100%'
-    el.style.width   = '100%'
+    wrap.style.width     = '100%'
+    wrap.style.overflowX = 'auto'
+    el.style.width       = '100%'
 
     el.style.visibility = 'visible'
     el.style.opacity    = '1'
