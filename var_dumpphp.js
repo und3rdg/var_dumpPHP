@@ -34,11 +34,11 @@ export default function var_dump_php(){
     container.style.margin        = '10px 0'
     container.style.pointerEvents = 'none'
 
-    nodeList.forEach(restStyles)
+    nodeList.forEach(resetStyles)
     document.body.appendChild(container)
   }
 
-  function restStyles(pre){
+  function resetStyles(pre){
     pre.style.width      = `calc(100% - ${option.btnWidth})`
     pre.style.maxWidth      = `calc(100% - ${option.btnWidth})`
     pre.style.display    = 'block'
